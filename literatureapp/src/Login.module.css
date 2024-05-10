@@ -1,0 +1,86 @@
+#main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    padding: 0%;
+    margin: 0%;
+}
+
+#firstOption {
+    display: flex;
+    width: 30%;
+    height: 50%;
+    flex-direction: column;
+    background-color: antiquewhite;
+    border-radius: 3%;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    border: 2px solid black;
+}
+
+#captcha {
+    display: flex;
+    width: 80%;
+    height: 30%;
+    background-color: brown;
+    padding: 5%;
+    margin: 1%;
+    border-radius: 2%;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    border: 2px solid black;
+}
+
+#captchaImg {
+    display: flex;
+    height: 50%;
+    width: 40%;
+    margin: 5%;
+    background-color: rgb(226, 211, 211);
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    border: 2px solid black;
+}
+
+#captchaInput {
+    display: flex;
+    width: 30%;
+    height: 20%;
+    border-radius: 3%;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    border: 2px solid black;
+}
+
+#optionButtons {
+    display: flex;
+    width: 100%;
+    height: 40%;
+    padding: 5%;
+    margin: 1%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    width: 30%;
+    height: 20%;
+    border-radius: 3%;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    border: 2px solid black;
+    background-color: aliceblue;
+}
